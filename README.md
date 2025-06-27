@@ -39,7 +39,7 @@ To address these gaps, we propose a SpatioTemporal Emotion Modeling Framework, S
 
 
 ### ✨ Ablation Studies
-![t-SNE_on_DFEW](fig/7.png)
+![Ablation Studies](fig/7.png)
 
 ## 🔨 Installation
 

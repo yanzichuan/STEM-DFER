@@ -1,1 +1,7 @@
-# STEM-DFER
+# STEM-DFER: Video Representation Learning for Facial Expression Recognition Guided by Dual-Branch Modeling and Task-Specific Adaptation
+
+
+## ✨ Overview
+
+Self-supervised learning, by leveraging the inherent structure of vast amounts of unlabeled data for feature self-learning, provides a new paradigm to address the data-dependency problem. Core techniques such as self-distillation, contrastive learning, and autoencoder have demonstrated significant potential in computer vision—for instance, the Masked Autoencoder (MAE), which pretrains visual encoders by reconstructing highly masked regions, has significantly improved downstream performance. Similarly, models such as BERT [38] and GPT in natural language processing have surpassed traditional supervised methods through self-supervision. However, as illustrated in Fig.~1, applying self-supervised learning to video-based emotion computing still faces two primary challenges: (1) most methods focus on static image features and overlook the temporal evolution of expressions—such as micro-expression duration and intensity changes—which are essential for capturing genuine affect dynamics; and (2) conventional full-parameter fine-tuning updates every model weight indiscriminately, incurring high computational and memory costs and causing catastrophic forgetting of pretrained representations, thus hindering effective adaptation to new tasks.
+

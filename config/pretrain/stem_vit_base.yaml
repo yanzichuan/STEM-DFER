@@ -1,9 +1,9 @@
-model_name: "STEM-DFER_vit_base"
+model_name: "stem_vit_base_ytf"
 img_size: 224
 patch_size: 16
 clip_frames: 16
 tubelet_size: 2
-mask_strategy: "fasking"
+mask_strategy: "tube"
 temporal_sample_rate: 2
 mask_percentage_target: 0.9
 mlp_ratio: 4.0
@@ -13,13 +13,9 @@ drop_rate: 0.0
 attn_drop_rate: 0.0
 norm_layer: "LayerNorm"
 init_values: 0.0
-weight_decay: 0.0
+weight_decay: 0.05
 feature_dir: "STEM-DFER_Features_Vit_Base"
-adv_loss: true
-adv_weight: 0.01
-gp_weight: 0.0
-d_steps: 1
-g_steps: 1
+lambda_loss: 0.5   # Appearance vs Motion balance
 
 learning_rate:
   base: 1.5e-4
@@ -38,6 +34,6 @@ encoder:
   num_heads: 12
 
 decoder:
-  embed_dim: 384
+  embed_dim: 512
   depth: 4
   num_heads: 6

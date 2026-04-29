@@ -259,11 +259,11 @@ node_modules
 .idea
 scratch*.py
 scratch*.ipynb
-/src/marlin_pytorch/version.txt
-marlin.encoder.pt
-marlin.full.pt
-marlin.ckpt
-.marlin
+/src/stem_pytorch/version.txt
+stem.encoder.pt
+stem.full.pt
+stem.ckpt
+.stem
 face_parsing.farl.lapa.main_ema_136500_jit191.pt
 logs
 *.pth

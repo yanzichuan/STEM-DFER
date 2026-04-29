@@ -15,7 +15,7 @@
 
 ---
 
-## ‚ö° Highlights
+## ‚ö?Highlights
 
 - **Dual-Branch Reconstruction**: Explicitly decouples facial appearance and multi-scale relative motion ($S=\{1, 3, 7\}$) to capture micro-expression dynamics.
 - **Dynamic Expression Expert Module (DEEM)**: A parameter-efficient adapter using a **Mixture-of-Experts (MoE)** architecture for task-specific refinement.
@@ -24,7 +24,7 @@
 
 ---
 
-## ‚ú® Framework Overview
+## ‚ú?Framework Overview
 
 ### 1. Stage 1: Spatio-Temporal Dual-Branch Pre-training
 The pre-training phase leverages a massive amount of unlabeled facial video data. By masking 90% of the spatiotemporal tokens, STEM-DFER forces the encoder to reconstruct both the **Static Appearance** (Appearance Branch) and the **Dynamic Evolution** (Motion Branch).
@@ -78,7 +78,7 @@ STEM-DFER produces highly discriminative emotion clusters compared to vanilla pr
 
 ---
 
-## üõ†Ô∏è Getting Started
+## üõ†Ô∏?Getting Started
 
 ### 1. Installation
 ```bash
